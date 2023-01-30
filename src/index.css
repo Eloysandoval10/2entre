@@ -1,0 +1,12 @@
+body {
+    background-image: url("./components/clima-tipos.jpg");
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img { 
+    width: 100%;
+}
