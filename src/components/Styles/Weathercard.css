@@ -63,5 +63,30 @@
     display: flex;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+}
+
+@media screen and (max-width: 520px) {
+    .weatherCard {
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #121714;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .weatherCard__home {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 0 auto;
+    }
+    
+    .weatherCard__btn {
+        color: white;
+        background-color: rgb(60, 28, 163);
+    }    
     
 }

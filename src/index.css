@@ -1,6 +1,10 @@
 body {
     background-image: url("./components/clima-tipos.jpg");
-    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
 }
 
 * {
@@ -9,4 +13,5 @@ body {
 
 img { 
     width: 100%;
+
 }
